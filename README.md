@@ -25,20 +25,20 @@ Following things are to be noted:
 12. Second process which can communicate with the XML process should have IPC connection information as the command line argument itself.
 13. Provide an interactive interface in the second process to query these tags and print the outcome.
 
-## Steps to launch: (Remember to compile the files with C++17 standard)
-1) Launch 2 terminals : One for server and one for client
-2) On the server side terminal, execute these commands:
-    a) clang++ abserver.cpp -o abserver -std=c++17
-    b) ./abserver -portnumber 9898 -filename data.xml
+## [Solution] Steps to launch: (Remember to compile the files with C++17 standard)
+1) **Launch 2 terminals** : One for server and one for client
+2) On the server side terminal, execute these commands:  
+    a) clang++ abserver.cpp -o abserver -std=c++17   
+    b) ./abserver -portnumber 9898 -filename data.xml. 
    These commands are for Mac so use g++ instead of clang++ if you are using linux
 
-3). On the client side terminal, execute these commands:
-    a) clang++ abclient.cpp -o abclient -std=c++17
-    b) ./abclient -portnumber 9898 -hostservername Abhisheks-MacBook-Air.local
-   These commands are for Mac so use g++ instead of clang++ if you are using linux.
-   hostservername is localhost here, to know your localhost, use "hostname" on your terminal and use that. Here "Abhisheks-MacBook-Air.local" is my hostname
+3). On the client side terminal, execute these commands:  
+    a) clang++ abclient.cpp -o abclient -std=c++17  
+    b) ./abclient -portnumber 9898 -hostservername Abhisheks-MacBook-Air.local  
+   These commands are for Mac so use g++ instead of clang++ if you are using linux.  
+   hostservername is localhost here, to know your localhost, use "hostname" on your terminal and use that. Here "Abhisheks-MacBook-Air.local" is my hostname. 
 
-4). You can now query from the client process. Use "quit" as a query to terminate the program.
+4). You can now query from the client process. Use "quit" as a query to terminate the program.  
 
 
 ## Explanation:
