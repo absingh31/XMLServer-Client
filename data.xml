@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!-- planes.xml - A document that lists ads for        ::you would have to handle comments too
+                  used airplanes -->
+<planes_for_sale>
+   <ad>
+      <year> 1977 </year>
+      <make> 43 </make>
+      <model> Skyhawk </model>
+      <color> Light blue and white </color>
+      <description> New paint, nearly new interior,
+            685 hours SMOH, full IFR King avionics </description>
+      <price> 23495 </price>
+      <seller> Skyway Aircraft </seller>
+      <location>
+         <city> Rapid City, </city>
+         <state> South Dakota </state>
+      </location>
+      <previous>[ 1 2 3 4 5]</previous>
+      <prev_string>["abhishek" "singh" "himanshu"]</prev_string>
+   </ad>
+</planes_for_sale>
